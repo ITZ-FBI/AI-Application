@@ -80,6 +80,15 @@ Output APK:
 ./scripts/build_and_install_debug.sh
 ```
 
+### CI build (recommended to get APK reliably)
+If your local environment has restricted network access, use GitHub Actions to generate the APK:
+
+1. Push this repository to GitHub.
+2. Run the **Build Android APK** workflow (`Actions` tab).
+3. Download artifact: `local-ai-assistant-debug-apk` (contains `app-debug.apk`).
+
+Workflow file: `.github/workflows/build-apk.yml`.
+
 ## Notes
 
 - This project is local-only by design; no network inference is used.

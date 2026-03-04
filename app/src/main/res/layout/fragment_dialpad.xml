@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/numberField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <Button android:id="@+id/key1" android:text="1" />
+        <Button android:id="@+id/key2" android:text="2" />
+        <Button android:id="@+id/key3" android:text="3" />
+        <Button android:id="@+id/key4" android:text="4" />
+        <Button android:id="@+id/key5" android:text="5" />
+        <Button android:id="@+id/key6" android:text="6" />
+        <Button android:id="@+id/key7" android:text="7" />
+        <Button android:id="@+id/key8" android:text="8" />
+        <Button android:id="@+id/key9" android:text="9" />
+        <Button android:id="@+id/keyStar" android:text="*" />
+        <Button android:id="@+id/key0" android:text="0" />
+        <Button android:id="@+id/keyHash" android:text="#" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/backspace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Backspace" />
+
+    <Button
+        android:id="@+id/callButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call" />
+</LinearLayout>

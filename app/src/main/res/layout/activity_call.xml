@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/recordIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not recording" />
+
+    <ToggleButton
+        android:id="@+id/record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Record Off"
+        android:textOn="Record On" />
+
+    <Button
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer" />
+
+    <Button
+        android:id="@+id/reject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reject" />
+
+    <Button
+        android:id="@+id/hangup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hang Up" />
+
+    <Button
+        android:id="@+id/minimize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Minimize to Bubble" />
+</LinearLayout>
